@@ -20,5 +20,5 @@ def test_inventor(invention, inventor):
 
 if __name__ == "__main__":
     test_inventor("Telephone","Alexander Graham Bell")
-    test_inventor("Transistor","Shockley")
+    test_inventor("Transistor","Bardeen")
     print("done.")
