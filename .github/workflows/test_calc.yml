@@ -19,6 +19,12 @@ jobs:
           pip install pytest
           echo "$ pytest --version"
           pytest --version
+      - name: Run calc test
+        run: |
+          echo "$ cd calc"
+          cd calc
+          echo "pytest"
+          pytest
 
         
     
