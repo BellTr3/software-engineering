@@ -36,3 +36,12 @@ jobs:
       run: |
         cd circle
         ls -la
+        echo $COPY index.html $TARGET/static
+        $COPY index.html $TARGET/static
+        echo $COPY sketch.js $TARGET/static
+        $COPY sketch.js $TARGET/static
+        echo $COPY style.css $TARGET/static
+        $COPY style.css $TARGET/static
+        echo $RUN 'ls -la'
+        $RUN 'ls -la'
+
