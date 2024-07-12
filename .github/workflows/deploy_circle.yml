@@ -32,3 +32,7 @@ jobs:
         export RUN="ssh $SSH_OPTIONS $TARGET"
         export COPY="scp $SSH_OPTIONS"
         echo $RUN 'ls -la'
+    - name: deploy circle to remote server
+      run: |
+        cd circle
+        ls -la
