@@ -5,7 +5,7 @@ on:
 
 jobs:
   test_calc:
-    runs-on: ubuntu-22.2
+    runs-on: ubuntu-latest
     steps:
       - name: Get code
         uses: actions/checkout@v2
@@ -14,6 +14,6 @@ jobs:
           pwd
           echo "Hello"
           ls -la
-          
+
         
     
